@@ -34,5 +34,5 @@ after_success: '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && grails prod maven-depl
   --repository=$MAVEN_REPO --non-interactive'
 env:
   global:
-  - secure: IF4jY8XTU5Nmrqs4aja6sIgC93VgBPxw8ylyoMQhePkB35SK2EHZ5cU7Tx3FSvEmDUQk6cq89toZHiiiGCISdCN3lawDpOFIeMZs3g98hc6cMBd4Wx7ncjO3oKDsIn+DFrF11TgMrwtjUUH/4TGpc32kyf0L5J/O+vqUO4vK6gs=
-  - secure: fRTVEF2L2MOgL1ZSGV2bhclUc+wGyTL7zBwB7qEgMpgXQvQQH8Q869I4G/9sFQdRAhyEYXyEPDtW6eVA93mEAxnelzJ/PbFaaoeRFDdIaqklMkwIaVpuRZiJ7O4dIFAo2Cn4quoJAKez9BPNFpS3h+UpCWdOtaloTTMYKp8YZNU=
+  - secure: TIso+g+5tiq8TJtqraMHQrL/nGvmfTSZMQQsfQgAEqkdCtAHJlzPtAPgrfFzOSk6MnI2eVwFYjre/8v8ofsHYBx3sUhNiwA4IeYT8wj5CIjT0oq49xKV9WD7adAbaUGrAt3tqkRTO1x8+cOn6YJRjTkdVv7xE90mP2k2R/xfnKc=
+  - secure: bVKNPtsGUvT5wrmQFMttvmN3zjMaitj0JqMN1iVouq0ZcES+qk+vit8hjft5tYmk3OAN8LLjm3dgg6vsxW1f32TN4sgfgNEB2Ux6YOYLzcnpQBeYpIRWv613YMRE6VbxwyQGty/U/yPEdCoAw/fRcxmk75uPyu2v2Q5ftWrYb1U=
